@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Rechner">
         <activity
-            android:name=".MainActivity"
+            android:name="at.ac.tgm.hit.sew7.mmirceski.rechner.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
