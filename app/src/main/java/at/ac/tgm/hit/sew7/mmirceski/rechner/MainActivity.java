@@ -2,6 +2,7 @@ package at.ac.tgm.hit.sew7.mmirceski.rechner;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvResult;
     private Button btnCalc, btnMS, btnMR;
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
